@@ -44,6 +44,7 @@
   transition-duration: 0.4s;
   padding: 0 10px 0 10px;
   border: 1px solid rgba(177,93,107,255);
+  justify-content: space-around;
 }
 
 .link button:hover {
@@ -55,6 +56,11 @@
   text-shadow: 0 0 8px rgba(199,108,116,0.9), 0 0 10px rgba(22,82,106,0.9);
 }
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+
+}
 
 @keyframes App-logo-spin {
   from {

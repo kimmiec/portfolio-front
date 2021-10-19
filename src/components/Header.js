@@ -5,7 +5,7 @@ function Header(props) {
     const navStyle = {
         display: 'flex',
         justifyContent: 'space-around',
-        border: '3px solid lightseagreen',
+        border: '3px ridge lightseagreen',
         padding: '8px',
         width: '90%',
         margin: 'auto',
@@ -20,7 +20,7 @@ function Header(props) {
                     <div className="home">HOME</div>
                 </Link>
                 <Link to='/about'>
-                    <div className="abt">ABOUT</div>
+                    <div className="abt">ABOUT ME</div>
                 </Link>
                 <Link to='/projects'>
                     <div className="pro">PROJECTS</div>
