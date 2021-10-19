@@ -8,7 +8,8 @@ function Header(props) {
         border: '3px solid lightseagreen',
         padding: '8px',
         width: '90%',
-        margin: 'auto'
+        margin: 'auto',
+        fontSize: '20px'
     };
 
     return (
@@ -16,13 +17,13 @@ function Header(props) {
             <h1>My Portfolio Page</h1>
             <nav style={navStyle}>
                 <Link to='/'>
-                    <div>HOME</div>
+                    <div className="home">HOME</div>
                 </Link>
                 <Link to='/about'>
-                    <div>ABOUT</div>
+                    <div className="abt">ABOUT</div>
                 </Link>
                 <Link to='/projects'>
-                    <div>PROJECTS</div>
+                    <div className="pro">PROJECTS</div>
                 </Link>
             </nav>
         </header>

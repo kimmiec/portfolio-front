@@ -7,7 +7,7 @@ function Projects(props) {
     // function to make api call
     const getProjects = async () => {
         // make call and get response
-        const response = await fetch (`${props.URL}projects`);
+        const response = await fetch(`${props.URL}projects`);
         // turn response to JS object
         const data = await response.json();
         // set projects state to data
@@ -21,14 +21,16 @@ function Projects(props) {
     const loaded = () => {
         return projects.map((project) => (
             <div>
-                <h1>{project.name}</h1>
-                <img src={project.image} />
-                <a href={project.git}>
-                    <button>Github</button>
-                </a>
-                <a href={project.live}>
-                    <button>live site</button>
-                </a>
+                <h1 className="proj">{project.name}</h1>
+                <img className="pic" src={project.image} />
+                <div className="link">
+                    <a href={project.git}>
+                        <button>Github</button>
+                    </a>
+                    <a href={project.live}>
+                        <button>live site</button>
+                    </a>
+                </div>
             </div>
         ))
     }
