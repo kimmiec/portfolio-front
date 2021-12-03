@@ -20,7 +20,9 @@ function App() {
         </Route>
 
         <Route path='/projects'>
-          <Projects URL={URL} />
+          <div className='MainProj'>
+            <Projects URL={URL} />
+          </div>
         </Route>
 
         <Route path='/resume'>

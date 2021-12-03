@@ -16,7 +16,7 @@ function Footer(props) {
     const border = {
         borderTop: '1px ridge cadetblue',
         width: '50%',
-        margin: '20px auto'
+        margin: '50px auto'
     }
 
     return (

@@ -4,10 +4,16 @@
 
 /* ---------Project page---------- */
 .pic {
-  width: 40%;
-  height: 40%;
+  width: 80%;
+  height: 80%;
   border: 3px solid palegoldenrod;
   box-shadow: 0 10px 10px 0 rgba(250,68,84,0.47), 0px 7px 20px 0 rgba(167,247,216,0.562);
+}
+
+.link{
+  margin: 30px auto;
+  position: relative;
+  display: flex;
 }
 
 .link button {
@@ -25,23 +31,34 @@
 .link button:hover {
   background-color: rgba(71,103,201,255);
   color: mintcream;
+  
 }
 
 .proj {
-  font-size: 20px;
+  font-size: 30px;
+  /* text-align: center; */
   text-shadow: 0 0 8px rgba(199,108,116,0.9), 0 0 10px rgba(22,82,106,0.9);
+}
+
+.MainProj{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  contain: content;
 }
 
 .projects{
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: 100%;
+  width: 50%;
+  max-width: 100%;
+  margin: 0px auto;
+  justify-content: space-between;
+  justify-content: center;
   contain: content;
-  margin: 0 auto;
-  justify-content: space-evenly;
-  background-color: rgba(22,82,106,0.9);
 }
+
 /* ----------------------------- */
 
 /* ---------Links---------- */

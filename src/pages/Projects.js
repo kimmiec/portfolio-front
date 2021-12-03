@@ -22,7 +22,10 @@ function Projects(props) {
         return projects.map((project) => (
             <div class="projects">
                 <h1 className="proj">{project.name}</h1>
+                <br />
                 <img className="pic" src={project.image} />
+                <br />
+                <br />
                 <div className="link">
                     <a href={project.git}>
                         <button>Github</button>
