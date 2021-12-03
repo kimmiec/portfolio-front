@@ -10,7 +10,7 @@ function Resume(props) {
 
             <div className="resBtn">
                 <a href={resume} download>
-                    <button>Download Resume</button>
+                    <button class='resbtn'>Download Resume</button>
                 </a>
             </div>
         

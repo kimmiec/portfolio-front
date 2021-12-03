@@ -20,7 +20,7 @@ function Header(props) {
     return (
         <header style={border}>
             <nav style={navStyle}>
-            <h1>Kimberly Chan</h1>
+            <h1 id="name">Kimberly Chan</h1>
                 <Link to='/'>
                     <div className="home">
                         <h5>HOME</h5>

@@ -21,13 +21,13 @@ function Footer(props) {
 
     return (
         <header style={border}>
-                <h3>Contact Me</h3>
+                <h3 id='contact'>Contact Me</h3>
             <nav style={navStyle}>
-                <a href="mailto:kimberlyhchan@gmail.com"><FiMail /></a>
-                <a href="https://github.com/kimmiec" target="_blank"><FiGithub /></a>
-                <a href="https://www.linkedin.com/in/kimberly-h-chan/" target="_blank"><FaLinkedinIn /></a>
+                <a id="mail" href="mailto:kimberlyhchan@gmail.com" target="_blank"><FiMail /></a>
+                <a id="git" href="https://github.com/kimmiec" target="_blank"><FiGithub /></a>
+                <a id="link" href="https://www.linkedin.com/in/kimberly-h-chan/" target="_blank"><FaLinkedinIn /></a>
             </nav>
-                <h5>© Kimberly Chan 2021</h5>
+                <h5 id='cpr'>© Kimberly Chan 2021</h5>
         </header>
     );
 }
