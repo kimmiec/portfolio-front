@@ -1,5 +1,5 @@
-import resPic from '../imgs/resume_image.png'
-import resume from '../imgs/Chan_resume.pdf'
+import resPic from '../imgs/resume_image_2.png'
+import resume from '../imgs/KChan_Resume.pdf'
 
 function Resume(props) {
     return (
